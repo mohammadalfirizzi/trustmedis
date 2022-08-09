@@ -14,7 +14,7 @@
         <img src="{{ asset('uiadminlte/dist/img/user_tpp') }}.png" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="#" class="d-block">TPP</a>
+        <a href="#" class="d-block">User</a>
       </div>
     </div>
 
@@ -38,6 +38,22 @@
               <a href="{{route('pegawai.index')}}" class="nav-link inactive">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Pegawai</p>
+              </a>
+            </li>
+          </ul>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="{{route('poli.index')}}" class="nav-link inactive">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Poli</p>
+              </a>
+            </li>
+          </ul>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="{{route('jadwal.index')}}" class="nav-link inactive">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Jadwal Dokter</p>
               </a>
             </li>
           </ul>
